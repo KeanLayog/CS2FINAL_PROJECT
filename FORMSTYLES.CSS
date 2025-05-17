@@ -1,0 +1,38 @@
+/* Form Specific Styles */
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1.1em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.radio-group {
+    margin: 10px 0 15px;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 0.9em;
+    height: 16px;
+    display: block;
+}
+
+.profileinfo p {
+    padding: 10px;
+    border-bottom: 1px dashed rgba(255,255,255,0.2);
+}
+
+.backhome a {
+    color: #f39c12;
+    margin-right: 20px;
+    text-decoration: none;
+}
